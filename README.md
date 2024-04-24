@@ -1,55 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
+This is a Java Based Attendance System developed to demonstrate the use of Java JDBC MySQL database Connectivity.
+Follow the steps to run the program on your pc
+1. Clone the repository
+2. Create the Data Base in MySQL using the MySQL WorkBench Script Attached (attendify.sql)
+3. Go to src/main/java
+4. Change the JDBC connector arguements as per your database name , username and password in all files
+5. Run the SignInGUI.java
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendify</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Attendify</h1>
+# Attendify
 
-        <p>Attendify is an attendance management system designed to streamline the process of marking and tracking attendance for educational institutions. This system provides separate interfaces for students and teachers, allowing for efficient attendance recording and reporting.</p>
+## Introduction
+Attendify is an attendance management system designed to streamline the process of marking and tracking attendance for educational institutions. This system provides separate interfaces for students and teachers, allowing for efficient attendance recording and reporting.
 
-        <h2>Features</h2>
-        <ul>
-            <li>User Authentication: Secure login and registration system for students and teachers.</li>
-            <li>Student Dashboard: Students can view their attendance records and receive notifications.</li>
-            <li>Teacher Dashboard: Teachers can mark attendance and generate attendance reports.</li>
-            <li>Real-time Updates: Attendance data is updated in real-time and accessible through the dashboard.</li>
-        </ul>
+## Features
+- User Authentication: Secure login and registration system for students and teachers.
+- Student Dashboard: Students can view their attendance records and receive notifications.
+- Teacher Dashboard: Teachers can mark attendance and generate attendance reports.
+- Real-time Updates: Attendance data is updated in real-time and accessible through the dashboard.
 
-        <h2>Installation</h2>
-        <div class="installation-steps">
-            <div class="installation-step">
-                <h3>Clone the repository:</h3>
-                <div class="code-block">
-                    <pre>git clone https://github.com/yourusername/Attendify.git</pre>
-                </div>
-            </div>
-            <!-- Repeat the same pattern for other installation steps -->
-        </div>
+## Technologies Used
+- Java (GUIs)
+- SQL (Database management)
 
-        <h2>Usage</h2>
-        <div class="usage-steps">
-            <div class="usage-step">
-                <h3>To use Attendify:</h3>
-                <ol>
-                    <li>Start the application and log in using your student or teacher credentials.</li>
-                    <li>Navigate through the dashboard to mark or view attendance.</li>
-                </ol>
-            </div>
-            <!-- Repeat the same pattern for other usage steps -->
-        </div>
+## Installation
+To set up Attendify on your local machine, follow these steps:
 
-        <h2>Contributing</h2>
-        <p>We welcome contributions to Attendify. If you have suggestions or improvements, please fork the repository and submit a pull request.</p>
+1. Clone the repository:
+   bash
+   git clone https://github.com/yourusername/Attendify.git
+   
+2. Navigate to the project directory:
+   bash
+   cd Attendify
+   
+3. Run the SQL script to set up the database:
+   sql
+   source path/to/attendify.sql
+   
+4. Compile and run the Java files:
+   java
+   javac *.java
+   java Main
+   
 
-        <h2>License</h2>
-        <p>This project is licensed under the MIT License - see the LICENSE.md file for details.</p>
-    </div>
-</body>
-</html>
+## Usage
+To use Attendify, start the application and log in using your student or teacher credentials. Navigate through the dashboard to mark or view attendance.
+
+## Contributing
+We welcome contributions to Attendify. If you have suggestions or improvements, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
