@@ -1,0 +1,83 @@
+/* README Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    color: #666;
+}
+
+.code-block {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.code-block pre {
+    margin: 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.installation-steps {
+    margin-top: 20px;
+}
+
+.installation-step {
+    margin-bottom: 20px;
+}
+
+.installation-step h3 {
+    margin-top: 0;
+}
+
+.installation-step pre {
+    margin-top: 5px;
+}
+
+.usage-steps {
+    margin-top: 20px;
+}
+
+.usage-step {
+    margin-bottom: 20px;
+}
+
+.usage-step h3 {
+    margin-top: 0;
+}
